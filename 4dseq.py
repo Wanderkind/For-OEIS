@@ -16,7 +16,6 @@ while True:
                 for L in range(2*R + 1):
                     l = L - R
                     
-                    
                     if R == 0 or (2*R - 1)**2 <= 4*(i**2 + j**2 + k**2 + l**2) <= (2*R + 1)**2:
                         Count += 1
 
